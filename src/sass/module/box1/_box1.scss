@@ -1,0 +1,12 @@
+@use "global" as *;
+.box1 {
+  max-width: rem(1280);
+  width: 100%;
+  height: 100%;
+  background-color: #ff69b4;
+  margin: 0 auto;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

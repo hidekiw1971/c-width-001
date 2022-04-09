@@ -4,7 +4,10 @@
 
 ## 概要
 
-- ｘｘｘ
+- 要素の外側の余白を調整するのが`margin`
+- 要素の内側の余白を調整するのが`padding`
+- `margin`は全体的なブロックのレイアウトを整える
+- `padding`はそれぞれのブロックの中のレイアウトを整える
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -33,16 +36,17 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0049.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- margin と padding の違い
+- https://web-camp.io/magazine/archives/85679
 
 ## 更新履歴
 
-- 2022/4/9 width(幅)の調整について検証
+- 2022/4/9 完成。`margin`と`padding`の使い所が理解でした。
+- 2022/4/9 `width`(幅)の調整について検証
 
 ## 環境・使い方
 

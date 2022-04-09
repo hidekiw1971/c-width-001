@@ -17,7 +17,7 @@
   <meta property="og:site_name" content="" />
   <meta property="og:description" content="" />
   <!-- ファビコン -->
-  <link rel="”icon”" href="" />
+  <link rel="icon" href="images/favicon.ico" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
@@ -26,8 +26,20 @@
 </head>
 
 <body>
-  <!-- copy start -->
-  <!-- copy end -->
+  <div class="box">
+    <h2>外のboxに`padding`を設定した場合の見え方</h2>
+    <p>外のboxに`padding: rem(5) rem(20);`を設定。</p>
+    <p>`padding`で余白を設定しているので、レスポンシブしても境界線が消えない。</p>
+    <div class="box__inner">テストテストテストテスト</div>
+  </div>
+  <br>
+  <div class="box1">
+    <h2>外のboxに`margin`を設定した場合の見え方</h2>
+    <p>外のboxに`margin: auto;`を設定。</p>
+    <p>`margin`は枠の外側になるので、レスポンシブすると見えなくなる。境界を見せたい場合は`padding`を使用する。</p>
+    <div class="box1__inner">テストテストテストテスト</div>
+  </div>
+
 </body>
 
 </html>
